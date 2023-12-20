@@ -1,0 +1,25 @@
+-- MVP --
+
+Have natual convo with AI.
+
+That means step 1 is speech detection. The AI needs to know when to respond to you
+Ways to do this:
+- Have  a wake word like Alexa or Siri - easier
+- Opening and closing wake work. So it know when to pay attention to you. Just make it short. And closing short work so it knows when to respond. That could be pretty natural with practice.
+- Have it recognize a pause - harder *starting with this one, might retreat to wake word if too annoying. Or maybe closing wake word. Or maybe opening and closing wake word
+- Have it recognize when a question has been asked + a pause - hardest
+
+2. The rest I have. The audio is transcribed (or maybe it was already transcribed live by the AI) and then the response is sent to GPT. 
+GPT sends back response and it is read out loud.
+
+3. have garbage, minimal interface that works. not just command line
+
+-- past MVP --
+
+4. Make the interface prettier. Maybe add some instructions
+
+5. Port to devices besides python. Start with Web, then apps on phones probably.
+
+6. Then the next thing to do is have the AI respond with a custom or better voice. GPT could send back a prefix before each sentence to tell the API what tone of voice to use for a custom tarined (or default) model.
+
+7. Translate into multiple languages or have the AI auto recognize what laguague it should be speaking

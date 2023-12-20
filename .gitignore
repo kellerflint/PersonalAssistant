@@ -1,3 +1,6 @@
 __pycache__
 config.py
+
 output.wav
+transcription.txt
+output.txt
